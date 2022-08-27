@@ -1,0 +1,19 @@
+name: '@thesimplyinitiative'
+id: 'ari:cloud:compass:31120c20-8a8f-4126-99d6-1cd3b41bc95a:component/942dd3f5-5774-4428-9c97-9b5ea17242b1/72fe2c78-ae2a-4189-ab0b-606f3f806555'
+description: 'Monorepo containing useful tools, plugins, and libraries. Created by the team, made for the community.'
+ownerId: 'ari:cloud:teams::team/6e68a119-be7b-4698-b821-c70895a95776'
+fields: {}
+links:
+  - name: ''
+    type: PROJECT
+    url: 'https://thesimplyinitiative-new.atlassian.net/browse/TSLIB'
+  - name: ''
+    type: REPOSITORY
+    url: 'https://gitlab.com/tsi-libs/the-simply-initiative'
+  - name: ''
+    type: DOCUMENT
+    url: 'https://docs.thesimplyinitiative.com.au'
+relationships: {}
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
