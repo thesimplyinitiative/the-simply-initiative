@@ -29,7 +29,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
-[The Simply Initiative Code of Conduct](https://gitlab.com/the-simply-initiative/the-simply-initiativeblob/main/CODE_OF_CONDUCT.md).
+[The Simply Initiative Code of Conduct](https://gitlab.com/the-simply-initiative/the-simply-initiative/blob/main/CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. Please report unacceptable behaviour
 to <opensource@thesimplyinitiative.com.au>.
 
@@ -77,7 +77,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 - Make sure that you are using the latest version.
 - Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [documentation](docs.thesimplyinitiative.com.au). If you are looking for support, you might want to check [this section](#i-have-a-question)).
-- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://gitlab.com/the-simply-initiative/the-simply-initiativeissues?q=label%3Abug).
+- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://gitlab.com/the-simply-initiative/the-simply-initiative/issues?q=label%3Abug).
 - Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitLab community have discussed the issue.
 - Collect information about the bug:
   - Stack trace (Traceback)
@@ -89,7 +89,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 <!-- omit in toc -->
 #### How Do I Submit a Good Bug Report?
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to <support@thesimplyinitiative.com.au>.
+> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to <opensource@thesimplyinitiative.com.au>.
 <!-- You may add a PGP key to allow the messages to be sent encrypted as well. -->
 
 We use GitLab issues to track bugs and errors. If you run into an issue with the project:
