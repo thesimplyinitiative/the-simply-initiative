@@ -1,4 +1,5 @@
 <!-- omit in toc -->
+
 # Contributing to The Simply Initiative
 
 First off, thanks for taking the time to contribute! ❤️
@@ -6,12 +7,14 @@ First off, thanks for taking the time to contribute! ❤️
 All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
 
 > And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
+>
 > - Star the project
 > - Tweet about it
 > - Refer this project in your project's readme
 > - Mention the project at local meetups and tell your friends/colleagues
 
 <!-- omit in toc -->
+
 ## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
@@ -23,8 +26,6 @@ All types of contributions are encouraged and valued. See the [Table of Contents
   - [Improving The Documentation](#improving-the-documentation)
 - [Styleguides](#styleguides)
   - [Commit Messages](#commit-messages)
-- [Join The Project Team](#join-the-project-team)
-
 
 ## Code of Conduct
 
@@ -32,7 +33,6 @@ This project and everyone participating in it is governed by the
 [The Simply Initiative Code of Conduct](https://gitlab.com/the-simply-initiative/the-simply-initiative/blob/main/CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. Please report unacceptable behaviour
 to <opensource@thesimplyinitiative.com.au>.
-
 
 ## I Have a Question
 
@@ -48,29 +48,16 @@ If you then still feel the need to ask a question and need clarification, we rec
 
 We will then take care of the issue as soon as possible.
 
-<!--
-You might want to create a separate issue tag for questions and include it in this description. People should then tag their issues accordingly.
-
-Depending on how large the project is, you may want to outsource the questioning, e.g. to Stack Overflow or Gitter. You may add additional contact and information possibilities:
-- IRC
-- Slack
-- Gitter
-- Stack Overflow tag
-- Blog
-- FAQ
-- Roadmap
-- E-Mail List
-- Forum
--->
-
 ## I Want To Contribute
 
 > ### Legal Notice <!-- omit in toc -->
+>
 > When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
 
 ### Reporting Bugs
 
 <!-- omit in toc -->
+
 #### Before Submitting a Bug Report
 
 A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
@@ -87,17 +74,18 @@ A good bug report shouldn't leave others needing to chase you up for more inform
   - Can you reliably reproduce the issue? And can you also reproduce it with older versions?
 
 <!-- omit in toc -->
+
 #### How Do I Submit a Good Bug Report?
 
 > You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to <opensource@thesimplyinitiative.com.au>.
-<!-- You may add a PGP key to allow the messages to be sent encrypted as well. -->
 
 We use GitLab issues to track bugs and errors. If you run into an issue with the project:
 
 - Open an [Issue](https://gitlab.com/the-simply-initiative/the-simply-initiative/issues/new). (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
 - Explain the behaviour you would expect and the actual behaviour.
-- Please provide as much context as possible and describe the *reproduction steps* that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
+- Please provide as much context as possible and describe the _reproduction steps_ that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
 - Provide the information you collected in the previous section.
+- There is a [Bug Template](.gitlab/issue_templates/Bug.md) to help you fill in the relevant information
 
 Once it's filed:
 
@@ -107,12 +95,12 @@ Once it's filed:
 
 <!-- You might want to create an issue template for bugs and errors that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
-
 ### Suggesting Enhancements
 
 This section guides you through submitting an enhancement suggestion for The Simply Initiative, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
 
 <!-- omit in toc -->
+
 #### Before Submitting an Enhancement
 
 - Make sure that you are using the latest version.
@@ -121,6 +109,7 @@ This section guides you through submitting an enhancement suggestion for The Sim
 - Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
 
 <!-- omit in toc -->
+
 #### How Do I Submit a Good Enhancement Suggestion?
 
 Enhancement suggestions are tracked as [GitLab issues](https://gitlab.com/the-simply-initiative/the-simply-initiative/issues).
@@ -130,30 +119,38 @@ Enhancement suggestions are tracked as [GitLab issues](https://gitlab.com/the-si
 - **Describe the current behaviour** and **explain which behaviour you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
 - You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux. <!-- this should only be included if the project has a GUI -->
 - **Explain why this enhancement would be useful** to most The Simply Initiative users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
+- There is a [Feature Request](.gitlab/issue_templates/Feature_Request.md) to help you fill in the relevant information
 
 <!-- You might want to create an issue template for enhancement suggestions that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
 ### Your First Code Contribution
+
+This project is using [Yarn PnP](https://yarnpkg.com/features/pnp) and does **not** require installing `node_modules`. Simply `git clone` and get started.
+
 <!-- TODO
-include Setup of env, IDE and typical getting started instructions?
+How to contribute
 
 -->
 
+**Coming Soon**
+
 ### Improving The Documentation
+
 <!-- TODO
 Updating, improving and correcting the documentation
 
 -->
 
+**Coming Soon**
+
 ## Styleguides
+
 ### Commit Messages
-<!-- TODO
 
--->
-
-## Join The Project Team
-<!-- TODO -->
+This repo uses [Commitizen](https://commitizen-tools.github.io/commitizen/) and [Commitlint](https://commitlint.js.org/#/) to ensure commit messages are inline with the follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification). Simply run `git commit` as you normally would and follow the instruction in your terminal.
 
 <!-- omit in toc -->
+
 ## Attribution
+
 This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
