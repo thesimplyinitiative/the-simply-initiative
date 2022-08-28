@@ -9,7 +9,7 @@ links:
     url: 'https://thesimplyinitiative-new.atlassian.net/browse/TSLIB'
   - name: ''
     type: REPOSITORY
-    url: 'https://gitlab.com/tsi-libs/the-simply-initiative'
+    url: 'https://gitlab.com/the-simply-initiative/the-simply-initiative'
   - name: ''
     type: DOCUMENT
     url: 'https://docs.thesimplyinitiative.com.au'
