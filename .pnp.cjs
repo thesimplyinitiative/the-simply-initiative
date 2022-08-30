@@ -50,6 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nrwl/js", "npm:14.5.10"],\
             ["@nrwl/linter", "virtual:dfd21ab285bfab479d048443c7448b1c87d59db3b13f22f940128a769ea5a4b6e443376e165c19a6a1182aed01a6b21300f9b7b715c9cce322f732e57722737e#npm:14.5.10"],\
             ["@nrwl/nx", "virtual:dfd21ab285bfab479d048443c7448b1c87d59db3b13f22f940128a769ea5a4b6e443376e165c19a6a1182aed01a6b21300f9b7b715c9cce322f732e57722737e#npm:7.8.7"],\
+            ["@nrwl/nx-plugin", "npm:14.5.10"],\
             ["@nrwl/react", "npm:14.5.10"],\
             ["@nrwl/web", "npm:14.5.10"],\
             ["@nrwl/workspace", "virtual:dfd21ab285bfab479d048443c7448b1c87d59db3b13f22f940128a769ea5a4b6e443376e165c19a6a1182aed01a6b21300f9b7b715c9cce322f732e57722737e#npm:14.5.10"],\
@@ -3707,6 +3708,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["virtual:378877b695b27757de6b906e6b963f53e2a6ac3110d1f96b3c79e4cbae9ada1916cd5f0a3cfbb6193f3751c4b46850142eb9cb306964312cfad7d915e14c1a7c#npm:14.5.10", {\
+          "packageLocation": "./.yarn/__virtual__/@nrwl-devkit-virtual-b65354c45a/0/cache/@nrwl-devkit-npm-14.5.10-131c0d1d6e-f46e58c033.zip/node_modules/@nrwl/devkit/",\
+          "packageDependencies": [\
+            ["@nrwl/devkit", "virtual:378877b695b27757de6b906e6b963f53e2a6ac3110d1f96b3c79e4cbae9ada1916cd5f0a3cfbb6193f3751c4b46850142eb9cb306964312cfad7d915e14c1a7c#npm:14.5.10"],\
+            ["@phenomnomnominal/tsquery", "virtual:835c314aa3da51521dd4da4c1e73f30a2cc5ed40fb8e8ca1538a72286b18dadddeaed57856b1583abd0a2cbb46d3409f7029e5e973a79c62e15c74cae68f098b#npm:4.1.1"],\
+            ["@types/nx", null],\
+            ["ejs", "npm:3.1.8"],\
+            ["ignore", "npm:5.2.0"],\
+            ["nx", "virtual:fa6d2ea107b81782a28aa7a73ca9f880f85ee59ac52daa23f6173bc091a2d0c2edac2cfef797b0b0a1ea68111a50482f795959a99ad4732f5ae62e67222462d0#npm:14.5.10"],\
+            ["semver", "npm:7.3.4"],\
+            ["tslib", "npm:2.4.0"],\
+            ["typescript", "patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=a1c5e5"]\
+          ],\
+          "packagePeers": [\
+            "@types/nx"\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["virtual:835c314aa3da51521dd4da4c1e73f30a2cc5ed40fb8e8ca1538a72286b18dadddeaed57856b1583abd0a2cbb46d3409f7029e5e973a79c62e15c74cae68f098b#npm:14.5.10", {\
           "packageLocation": "./.yarn/__virtual__/@nrwl-devkit-virtual-5ed0b05327/0/cache/@nrwl-devkit-npm-14.5.10-131c0d1d6e-f46e58c033.zip/node_modules/@nrwl/devkit/",\
           "packageDependencies": [\
@@ -3895,6 +3914,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/jasmine-marbles",\
             "jasmine-marbles"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@nrwl/nx-plugin", [\
+        ["npm:14.5.10", {\
+          "packageLocation": "./.yarn/cache/@nrwl-nx-plugin-npm-14.5.10-378877b695-93f17b8cd0.zip/node_modules/@nrwl/nx-plugin/",\
+          "packageDependencies": [\
+            ["@nrwl/nx-plugin", "npm:14.5.10"],\
+            ["@nrwl/devkit", "virtual:378877b695b27757de6b906e6b963f53e2a6ac3110d1f96b3c79e4cbae9ada1916cd5f0a3cfbb6193f3751c4b46850142eb9cb306964312cfad7d915e14c1a7c#npm:14.5.10"],\
+            ["@nrwl/jest", "npm:14.5.10"],\
+            ["@nrwl/js", "npm:14.5.10"],\
+            ["@nrwl/linter", "virtual:297e5f7b7e650d08b64d03820c3c8f82bb2a2da2ee0c891fa334b10ed58766f4e962862a6d29141108ee448963fceb864bb41e96901b02992859a1e90581a1b2#npm:14.5.10"],\
+            ["dotenv", "npm:10.0.0"],\
+            ["fs-extra", "npm:10.1.0"],\
+            ["rxjs", "npm:6.6.7"],\
+            ["semver", "npm:7.3.4"],\
+            ["tslib", "npm:2.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4865,6 +4902,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nrwl/js", "npm:14.5.10"],\
             ["@nrwl/linter", "virtual:dfd21ab285bfab479d048443c7448b1c87d59db3b13f22f940128a769ea5a4b6e443376e165c19a6a1182aed01a6b21300f9b7b715c9cce322f732e57722737e#npm:14.5.10"],\
             ["@nrwl/nx", "virtual:dfd21ab285bfab479d048443c7448b1c87d59db3b13f22f940128a769ea5a4b6e443376e165c19a6a1182aed01a6b21300f9b7b715c9cce322f732e57722737e#npm:7.8.7"],\
+            ["@nrwl/nx-plugin", "npm:14.5.10"],\
             ["@nrwl/react", "npm:14.5.10"],\
             ["@nrwl/web", "npm:14.5.10"],\
             ["@nrwl/workspace", "virtual:dfd21ab285bfab479d048443c7448b1c87d59db3b13f22f940128a769ea5a4b6e443376e165c19a6a1182aed01a6b21300f9b7b715c9cce322f732e57722737e#npm:14.5.10"],\

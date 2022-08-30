@@ -2302,6 +2302,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nrwl/nx-plugin@npm:^14.5.10":
+  version: 14.5.10
+  resolution: "@nrwl/nx-plugin@npm:14.5.10"
+  dependencies:
+    "@nrwl/devkit": 14.5.10
+    "@nrwl/jest": 14.5.10
+    "@nrwl/js": 14.5.10
+    "@nrwl/linter": 14.5.10
+    dotenv: ~10.0.0
+    fs-extra: ^10.1.0
+    rxjs: ^6.5.4
+    semver: 7.3.4
+    tslib: ^2.3.0
+  checksum: 93f17b8cd08f69b0431670c444213e1a406913c36c5a148f21a2d167dd45039df5aca33aaee349ff0c8de65446595db8947f1168fede2bd546803749d4adc175
+  languageName: node
+  linkType: hard
+
 "@nrwl/nx@npm:^7.8.7":
   version: 7.8.7
   resolution: "@nrwl/nx@npm:7.8.7"
@@ -2915,6 +2932,7 @@ __metadata:
     "@nrwl/js": 14.5.10
     "@nrwl/linter": 14.5.10
     "@nrwl/nx": ^7.8.7
+    "@nrwl/nx-plugin": ^14.5.10
     "@nrwl/react": ^14.5.10
     "@nrwl/web": 14.5.10
     "@nrwl/workspace": 14.5.10

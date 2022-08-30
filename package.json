@@ -13,7 +13,11 @@
     "gen:stories": "nx g @nrwl/react:stories ",
     "gen:comp-story-spec": "nx g @nrwl/react:component-cypress-spec ",
     "gen:cypress-conf": "nx g @nrwl/react:cypress-component-configuration ",
-    "gen:comp-spec": "nx g @nrwl/react:component-test "
+    "gen:comp-spec": "nx g @nrwl/react:component-test ",
+    "gen:plugin": "nx g @nrwl/nx-plugin:plugin ",
+    "gen:migration": "nx g @nrwl/nx-plugin:migration ",
+    "gen:generator": "nx g @nrwl/nx-plugin:generator ",
+    "gen:executor": "nx g @nrwl/nx-plugin:executor "
   },
   "version": "0.0.0",
   "license": "MIT",
@@ -32,6 +36,7 @@
     "@nrwl/js": "14.5.10",
     "@nrwl/linter": "14.5.10",
     "@nrwl/nx": "^7.8.7",
+    "@nrwl/nx-plugin": "^14.5.10",
     "@nrwl/react": "^14.5.10",
     "@nrwl/web": "14.5.10",
     "@nrwl/workspace": "14.5.10",

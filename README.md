@@ -42,6 +42,15 @@ yarn gen:cypress-conf [options,...] # Add a Cypress component testing configurat
 yarn gen:comp-spec [options,...] # Add a Cypress component test for a component.
 ```
 
+### Nx-Plugin
+
+```sh
+yarn gen:plugin [name] [options,...] # Create a Plugin for Nx.
+yarn gen:migration [name] [options,...] # Create a Migration for an Nx Plugin.
+yarn gen:generator [name] [options,...] # Create a Generator for an Nx Plugin.
+yarn gen:executor [name] [options,...] # Create an Executor for an Nx Plugin.
+```
+
 Run any of the above commands followed by `--help` to get information on the options and usage of the command
 
 **Example:**
