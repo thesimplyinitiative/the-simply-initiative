@@ -125,7 +125,15 @@ Enhancement suggestions are tracked as [GitLab issues](https://gitlab.com/the-si
 
 ### Your First Code Contribution
 
-This project is using [Yarn PnP](https://yarnpkg.com/features/pnp) and does **not** require installing `node_modules`. Simply `git clone` and get started.
+This project is using several features you should familiarise with prior to getting started:
+
+- [Yarn PnP](https://yarnpkg.com/features/pnp)
+- [Yarn Workspaces](https://yarnpkg.com/features/workspaces)
+- [Nx](https://nx.dev/getting-started/intro)
+
+As this project is using `Yarn PnP`, it doesn't require installing `node_modules`. Simply `git clone` and get started.
+
+If you are just getting started or don't know where to start, you can head over to our [GitLab issues](https://gitlab.com/the-simply-initiative/the-simply-initiative/issues) and get started on any task labelled `good-first-issue`.
 
 <!-- TODO
 How to contribute

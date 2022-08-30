@@ -14,9 +14,15 @@ This project is structured as a monorepo. If you don't know what a monorepo is, 
 
 Installation guides vary by package. Each package has its own README.md file you can refer to for installation and usage instructions. Preferably, head over to the [docs](https://docs.thesimplyinitiative.com.au) to learn more about each package.
 
+### Plug and Play
+
+The monorepo uses Yarn Berry with Plug n Play (PnP). It doesn't have a `node_modules` directory, nor does it require one. You can learn more about Yarn Berry [here](https://yarnpkg.com/getting-started/migration).
+
 ## Monorepo Commands
 
-The following commands are available in this Monorepo:
+This package uses `yarn workspaces`. You can learn more about workspaces [here](https://yarnpkg.com/features/workspaces).
+
+**The following commands are available in this Monorepo:**
 
 ### React
 
