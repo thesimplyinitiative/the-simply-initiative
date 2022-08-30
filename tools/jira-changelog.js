@@ -13,7 +13,7 @@ const nxRoot = root.dir || process.cwd();
 
 const tree = new FsTree(nxRoot);
 
-const scopes = ['root', ...getProjects(tree).values()];
+const scopes = ['root', ...getProjects(tree).keys()];
 
 options.scopes = scopes;
 options.customScope = false;
