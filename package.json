@@ -1,5 +1,5 @@
 {
-  "name": "@thesimplyinitiative/root",
+  "name": "@tsi/root",
   "workspaces": [
     "packages/**/*"
   ],
