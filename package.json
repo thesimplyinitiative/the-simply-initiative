@@ -75,7 +75,8 @@
     ],
     "*": [
       "nx format:write --files"
-    ]
+    ],
+    "!(path/to/excluded/dir/**/*)*.{js,jsx,ts,tsx}": "eslint --cache --fix"
   },
   "config": {
     "commitizen": {
