@@ -24,6 +24,14 @@ This package uses `yarn workspaces`. You can learn more about workspaces [here](
 
 **The following commands are available in this Monorepo:**
 
+### Misc
+
+```sh
+yarn move [destination] [options,...] # Move a project to another folder in the workspace.
+yarn rm [projectName] [options,...] # Remove a project from the workspace.
+
+```
+
 ### Typescript/Javascript
 
 ```sh
