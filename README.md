@@ -24,6 +24,12 @@ This package uses `yarn workspaces`. You can learn more about workspaces [here](
 
 **The following commands are available in this Monorepo:**
 
+### Typescript/Javascript
+
+```sh
+yarn gen:lib [name] [options,...] # Create a TypeScript Library. Use --js to create a JavaScript library instead
+```
+
 ### React
 
 ```sh

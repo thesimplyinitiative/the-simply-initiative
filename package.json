@@ -6,6 +6,7 @@
   "scripts": {
     "postinstall": "husky install",
     "gen:library": "nx g @nrwl/react:library ",
+    "gen:lib": "nx g @nrwl/workspace:library",
     "gen:component": "nx g @nrwl/react:component ",
     "gen:hook": "nx g @nrwl/react:hook ",
     "gen:story-conf": "nx g @nrwl/react:storybook-configuration ",
