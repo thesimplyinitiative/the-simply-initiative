@@ -18,7 +18,6 @@ const scopes = ['root', ...getProjects(tree).keys()];
 options.scopes = scopes;
 options.customScope = false;
 options.skipScope = false;
-options.skipScope = false;
 options.jiraPrepend = '[';
 options.jiraAppend = ']';
 options.jiraOptional = true;
