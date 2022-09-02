@@ -2,5 +2,8 @@
 
 /dist
 /coverage
-.yarn/*
+/.yarn
 .pnp.*
+.yarnrc.yml
+compass.yml
+/.husky

@@ -10367,7 +10367,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nx@npm:14, nx@npm:14.5.10":
+"nx@npm:14.5.10":
   version: 14.5.10
   resolution: "nx@npm:14.5.10"
   dependencies:
