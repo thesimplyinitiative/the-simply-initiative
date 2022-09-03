@@ -2964,6 +2964,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsi/eslint-plugin@workspace:packages/eslint":
+  version: 0.0.0-use.local
+  resolution: "@tsi/eslint-plugin@workspace:packages/eslint"
+  dependencies:
+    "@nrwl/devkit": ^14.5.10
+    "@nrwl/eslint-plugin-nx": 14.5.10
+    "@types/eslint": ^8
+    "@types/node": ^18.7.13
+    "@typescript-eslint/eslint-plugin": ^5.29.0
+    eslint: ~8.15.0
+    react-magnetic-di: ^2.2.8
+    tslib: ^2.4.0
+  peerDependencies:
+    "@nrwl/devkit": ^14.5.10
+    "@typescript-eslint/eslint-plugin": ^5.29.0
+    "@typescript-eslint/parser": ^5.29.0
+    eslint: ~8.15.0
+    prop-types: ^15.0.0
+    react: ^18.2.0
+    react-magnetic-di: ^2.2.8
+  peerDependenciesMeta:
+    prop-types:
+      optional: true
+    react:
+      optional: true
+    react-magnetic-di:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
 "@tsi/root@workspace:.":
   version: 0.0.0-use.local
   resolution: "@tsi/root@workspace:."
@@ -3116,7 +3146,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*":
+"@types/eslint@npm:*, @types/eslint@npm:^8":
   version: 8.4.6
   resolution: "@types/eslint@npm:8.4.6"
   dependencies:
@@ -11644,6 +11674,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-magnetic-di@npm:^2.2.8":
+  version: 2.2.8
+  resolution: "react-magnetic-di@npm:2.2.8"
+  peerDependencies:
+    prop-types: ^15.0.0
+    react: ^16.9.0 || ^17.0.0
+  peerDependenciesMeta:
+    babel-plugin-macros:
+      optional: true
+    eslint:
+      optional: true
+  checksum: b8cdce79f14a4060c63002281a21bd8d8938ad66c116cde98a693a8215642545c156706b7b62035200a51151009b5bc77b9cda943c0f94f051913093fa1dc716
+  languageName: node
+  linkType: hard
+
 "react-refresh@npm:^0.10.0":
   version: 0.10.0
   resolution: "react-refresh@npm:0.10.0"
@@ -13434,7 +13479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:*, tslib@npm:^2, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1":
+"tslib@npm:*, tslib@npm:^2, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0":
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: 8c4aa6a3c5a754bf76aefc38026134180c053b7bd2f81338cb5e5ebf96fefa0f417bff221592bf801077f5bf990562f6264fecbc42cd3309b33872cb6fc3b113

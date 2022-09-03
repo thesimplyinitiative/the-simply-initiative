@@ -1,0 +1,35 @@
+{
+  "name": "@tsi/eslint-plugin",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@nrwl/devkit": "^14.5.10",
+    "@nrwl/eslint-plugin-nx": "14.5.10",
+    "@types/eslint": "^8",
+    "@types/node": "^18.7.13",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "eslint": "~8.15.0",
+    "react-magnetic-di": "^2.2.8",
+    "tslib": "^2.4.0"
+  },
+  "peerDependencies": {
+    "@nrwl/devkit": "^14.5.10",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "~8.15.0",
+    "prop-types": "^15.0.0",
+    "react": "^18.2.0",
+    "react-magnetic-di": "^2.2.8"
+  },
+  "peerDependenciesMeta": {
+    "prop-types": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "react-magnetic-di": {
+      "optional": true
+    }
+  },
+  "main": ""
+}
