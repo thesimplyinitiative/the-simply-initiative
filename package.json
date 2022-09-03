@@ -7,6 +7,8 @@
     "postinstall": "husky install",
     "move": "nx g @nrwl/workspace:move",
     "rm": "nx g @nrwl/workspace:remove",
+    "build": "yarn nx run-many --target=build --all",
+    "lint": "yarn nx run-many --target=lint --all",
     "gen:library": "nx g @nrwl/react:library ",
     "gen:lib": "nx g @nrwl/js:library",
     "gen:component": "nx g @nrwl/react:component ",
