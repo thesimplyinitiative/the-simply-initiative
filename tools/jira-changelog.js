@@ -2,16 +2,13 @@ const custom = require('@digitalroute/cz-conventional-changelog-for-jira/configu
 const defaultOptions = require('@digitalroute/cz-conventional-changelog-for-jira/defaults');
 
 const { FsTree } = require('nx/src/generators/tree');
-const { findWorkspaceRoot } = require('nx/src/utils/find-workspace-root');
-const { getProjects } = require('@nrwl/devkit');
+const { getProjects, workspaceRoot } = require('@nrwl/devkit');
 
 const options = defaultOptions;
 
-const root = findWorkspaceRoot(process.cwd());
+const root = workspaceRoot;
 
-const nxRoot = root.dir || process.cwd();
-
-const tree = new FsTree(nxRoot);
+const tree = new FsTree(root);
 
 const scopes = ['root', ...getProjects(tree).keys()];
 

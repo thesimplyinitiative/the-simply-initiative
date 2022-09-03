@@ -24,6 +24,22 @@ This package uses `yarn workspaces`. You can learn more about workspaces [here](
 
 **The following commands are available in this Monorepo:**
 
+### Building
+
+```sh
+yarn nx build [library-name] # Builds a library
+
+yarn build # Builds all libraries
+```
+
+## Linting
+
+```sh
+yarn nx lint [library-name] # Lints a library
+
+yarn lint # Builds all libraries
+```
+
 ### Misc
 
 ```sh
