@@ -2964,12 +2964,55 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsi/eslint-plugin@portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint":
+  version: 0.0.0-use.local
+  resolution: "@tsi/eslint-plugin@portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint"
+  peerDependencies:
+    "@nrwl/devkit": ^14.5.10
+    "@typescript-eslint/eslint-plugin": ^5.29.0
+    "@typescript-eslint/parser": ^5.29.0
+    eslint: ~8.15.0
+    prop-types: ^15.0.0
+    react: ^18.2.0
+    react-magnetic-di: ^2.2.8
+  peerDependenciesMeta:
+    prop-types:
+      optional: true
+    react:
+      optional: true
+    react-magnetic-di:
+      optional: true
+  languageName: node
+  linkType: soft
+
+"@tsi/eslint-plugin@portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@tsi/eslint-plugin@portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A."
+  peerDependencies:
+    "@nrwl/devkit": ^14.5.10
+    "@typescript-eslint/eslint-plugin": ^5.29.0
+    "@typescript-eslint/parser": ^5.29.0
+    eslint: ~8.15.0
+    prop-types: ^15.0.0
+    react: ^18.2.0
+    react-magnetic-di: ^2.2.8
+  peerDependenciesMeta:
+    prop-types:
+      optional: true
+    react:
+      optional: true
+    react-magnetic-di:
+      optional: true
+  languageName: node
+  linkType: soft
+
 "@tsi/eslint-plugin@workspace:packages/eslint":
   version: 0.0.0-use.local
   resolution: "@tsi/eslint-plugin@workspace:packages/eslint"
   dependencies:
     "@nrwl/devkit": ^14.5.10
     "@nrwl/eslint-plugin-nx": 14.5.10
+    "@tsi/eslint-plugin": "portal:../../dist/eslint"
     "@types/eslint": ^8
     "@types/node": ^18.7.13
     "@typescript-eslint/eslint-plugin": ^5.29.0
@@ -3017,6 +3060,7 @@ __metadata:
     "@nrwl/workspace": 14.5.10
     "@ryansonshine/commitizen": ^4.2.8
     "@testing-library/react": 13.3.0
+    "@tsi/eslint-plugin": "portal:./dist/eslint"
     "@types/jest": 27.4.1
     "@types/node": ^18.7.13
     "@types/react": 18.0.17

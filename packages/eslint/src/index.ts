@@ -7,4 +7,4 @@ const eslintConfig: ESLint.Plugin = {
   rules,
 };
 
-export default eslintConfig;
+module.exports = eslintConfig;

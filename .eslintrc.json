@@ -1,7 +1,9 @@
 {
   "root": true,
   "ignorePatterns": ["**/*"],
-  "plugins": ["@nrwl/nx"],
+  "extends": ["plugin:@tsi/nx"],
+  "plugins": ["@nrwl/nx", "@tsi"],
+
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
@@ -25,18 +27,7 @@
     {
       "files": ["*.ts", "*.tsx"],
       "extends": ["plugin:@nrwl/nx/typescript"],
-      "rules": {
-        "@typescript-eslint/consistent-type-imports": "error",
-        "@typescript-eslint/consistent-type-exports": "error"
-      },
-      "parserOptions": {
-        "tsconfigRootDir": ".",
-        "project": [
-          "./tsconfig.base.json",
-          "./tools/tsconfig.*.json",
-          "./packages/**/tsconfig.*.json"
-        ]
-      }
+      "rules": {}
     },
     {
       "files": ["*.js", "*.jsx"],

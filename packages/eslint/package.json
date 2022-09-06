@@ -4,6 +4,7 @@
   "devDependencies": {
     "@nrwl/devkit": "^14.5.10",
     "@nrwl/eslint-plugin-nx": "14.5.10",
+    "@tsi/eslint-plugin": "portal:../../dist/eslint",
     "@types/eslint": "^8",
     "@types/node": "^18.7.13",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
@@ -30,6 +31,5 @@
     "react-magnetic-di": {
       "optional": true
     }
-  },
-  "main": ""
+  }
 }

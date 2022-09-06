@@ -57,6 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nrwl/workspace", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:14.5.10"],\
             ["@ryansonshine/commitizen", "npm:4.2.8"],\
             ["@testing-library/react", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:13.3.0"],\
+            ["@tsi/eslint-plugin", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A."],\
             ["@types/jest", "npm:27.4.1"],\
             ["@types/node", "npm:18.7.13"],\
             ["@types/react", "npm:18.0.17"],\
@@ -4972,12 +4973,100 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@tsi/eslint-plugin", [\
+        ["portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint", {\
+          "packageLocation": "./dist/eslint/",\
+          "packageDependencies": [\
+            ["@tsi/eslint-plugin", "portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A.", {\
+          "packageLocation": "./dist/eslint/",\
+          "packageDependencies": [\
+            ["@tsi/eslint-plugin", "portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A."]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A.", {\
+          "packageLocation": "./.yarn/__virtual__/@tsi-eslint-plugin-virtual-b1dfa3ec10/1/dist/eslint/",\
+          "packageDependencies": [\
+            ["@tsi/eslint-plugin", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A."],\
+            ["@nrwl/devkit", "virtual:835c314aa3da51521dd4da4c1e73f30a2cc5ed40fb8e8ca1538a72286b18dadddeaed57856b1583abd0a2cbb46d3409f7029e5e973a79c62e15c74cae68f098b#npm:14.5.10"],\
+            ["@types/eslint", null],\
+            ["@types/nrwl__devkit", null],\
+            ["@types/prop-types", null],\
+            ["@types/react", "npm:18.0.17"],\
+            ["@types/react-magnetic-di", null],\
+            ["@types/typescript-eslint__eslint-plugin", null],\
+            ["@types/typescript-eslint__parser", null],\
+            ["@typescript-eslint/eslint-plugin", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:5.36.0"],\
+            ["@typescript-eslint/parser", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:5.36.0"],\
+            ["eslint", "npm:8.15.0"],\
+            ["prop-types", null],\
+            ["react", "npm:18.2.0"],\
+            ["react-magnetic-di", null]\
+          ],\
+          "packagePeers": [\
+            "@nrwl/devkit",\
+            "@types/eslint",\
+            "@types/nrwl__devkit",\
+            "@types/prop-types",\
+            "@types/react-magnetic-di",\
+            "@types/react",\
+            "@types/typescript-eslint__eslint-plugin",\
+            "@types/typescript-eslint__parser",\
+            "@typescript-eslint/eslint-plugin",\
+            "@typescript-eslint/parser",\
+            "eslint",\
+            "prop-types",\
+            "react-magnetic-di",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint", {\
+          "packageLocation": "./.yarn/__virtual__/@tsi-eslint-plugin-virtual-e5cf0ffc4c/1/dist/eslint/",\
+          "packageDependencies": [\
+            ["@tsi/eslint-plugin", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint"],\
+            ["@nrwl/devkit", "virtual:378877b695b27757de6b906e6b963f53e2a6ac3110d1f96b3c79e4cbae9ada1916cd5f0a3cfbb6193f3751c4b46850142eb9cb306964312cfad7d915e14c1a7c#npm:14.5.10"],\
+            ["@types/eslint", "npm:8.4.6"],\
+            ["@types/nrwl__devkit", null],\
+            ["@types/prop-types", null],\
+            ["@types/react", null],\
+            ["@types/react-magnetic-di", null],\
+            ["@types/typescript-eslint__eslint-plugin", null],\
+            ["@types/typescript-eslint__parser", null],\
+            ["@typescript-eslint/eslint-plugin", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#npm:5.36.0"],\
+            ["@typescript-eslint/parser", null],\
+            ["eslint", "npm:8.15.0"],\
+            ["prop-types", null],\
+            ["react", null],\
+            ["react-magnetic-di", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#npm:2.2.8"]\
+          ],\
+          "packagePeers": [\
+            "@nrwl/devkit",\
+            "@types/eslint",\
+            "@types/nrwl__devkit",\
+            "@types/prop-types",\
+            "@types/react-magnetic-di",\
+            "@types/react",\
+            "@types/typescript-eslint__eslint-plugin",\
+            "@types/typescript-eslint__parser",\
+            "@typescript-eslint/eslint-plugin",\
+            "@typescript-eslint/parser",\
+            "eslint",\
+            "prop-types",\
+            "react-magnetic-di",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
         ["workspace:packages/eslint", {\
           "packageLocation": "./packages/eslint/",\
           "packageDependencies": [\
-            ["@tsi/eslint-plugin", "workspace:packages/eslint"],\
             ["@nrwl/devkit", "virtual:378877b695b27757de6b906e6b963f53e2a6ac3110d1f96b3c79e4cbae9ada1916cd5f0a3cfbb6193f3751c4b46850142eb9cb306964312cfad7d915e14c1a7c#npm:14.5.10"],\
             ["@nrwl/eslint-plugin-nx", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#npm:14.5.10"],\
+            ["@tsi/eslint-plugin", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint"],\
             ["@types/eslint", "npm:8.4.6"],\
             ["@types/node", "npm:18.7.13"],\
             ["@typescript-eslint/eslint-plugin", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#npm:5.36.0"],\
@@ -5012,6 +5101,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nrwl/workspace", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:14.5.10"],\
             ["@ryansonshine/commitizen", "npm:4.2.8"],\
             ["@testing-library/react", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:13.3.0"],\
+            ["@tsi/eslint-plugin", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A."],\
             ["@types/jest", "npm:27.4.1"],\
             ["@types/node", "npm:18.7.13"],\
             ["@types/react", "npm:18.0.17"],\
