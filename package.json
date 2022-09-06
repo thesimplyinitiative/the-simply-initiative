@@ -77,11 +77,13 @@
   "lint-staged": {
     "packages/**/*": [
       "nx affected:lint --fix --files",
-      "nx affected:test --files",
-      "tsc --noEmit"
+      "nx affected:test --files"
     ],
     "*": [
       "nx format:write --files"
+    ],
+    "*.{ts,tsx}": [
+      "tsc --noEmit"
     ],
     "!(packages/**/*)*.{js,jsx,ts,tsx}": "eslint --cache --fix"
   },
