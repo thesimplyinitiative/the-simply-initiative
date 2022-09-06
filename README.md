@@ -32,12 +32,14 @@ yarn nx build [library-name] # Builds a library
 yarn build # Builds all libraries
 ```
 
-## Linting
+## Linting/Typechecking
 
 ```sh
 yarn nx lint [library-name] # Lints a library
 
-yarn lint # Builds all libraries
+yarn lint # Lints all libraries
+
+yarn typecheck # Type checks whole repo
 ```
 
 ### Misc
