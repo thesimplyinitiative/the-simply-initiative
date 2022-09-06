@@ -77,7 +77,8 @@
   "lint-staged": {
     "packages/**/*": [
       "nx affected:lint --fix --files",
-      "nx affected:test --files"
+      "nx affected:test --files",
+      "tsc --noEmit"
     ],
     "*": [
       "nx format:write --files"
