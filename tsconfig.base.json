@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@tsi/eslint-plugin": ["packages/eslint/src/index.ts"]
+      "@tsi/eslint-plugin": ["packages/eslint/src/index.js"]
     }
   },
   "exclude": ["node_modules", "tmp"]

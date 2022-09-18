@@ -1,10 +1,10 @@
 {
   "name": "@tsi/eslint-plugin",
   "version": "0.0.1",
+  "type": "commonjs",
   "devDependencies": {
     "@nrwl/devkit": "^14.5.10",
     "@nrwl/eslint-plugin-nx": "14.5.10",
-    "@tsi/eslint-plugin": "portal:../../dist/eslint",
     "@types/eslint": "^8",
     "@types/node": "^18.7.13",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
@@ -12,16 +12,28 @@
     "react-magnetic-di": "^2.2.8",
     "tslib": "^2.4.0"
   },
+  "main": "./src/index.js",
   "peerDependencies": {
     "@nrwl/devkit": "^14.5.10",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
-    "eslint": "~8.15.0",
+    "eslint": ">=8.15.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-repo-structure": "^0.1.0",
     "prop-types": "^15.0.0",
     "react": "^18.2.0",
     "react-magnetic-di": "^2.2.8"
   },
   "peerDependenciesMeta": {
+    "@nrwl/devkit": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-repo-structure": {
+      "optional": true
+    },
     "prop-types": {
       "optional": true
     },
@@ -31,5 +43,8 @@
     "react-magnetic-di": {
       "optional": true
     }
+  },
+  "dependencies": {
+    "find-yarn-workspace-root": "^2.0.0"
   }
 }

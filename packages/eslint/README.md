@@ -1,6 +1,6 @@
 # @tsi/eslint-plugin
 
-Base NX Eslint Config used within The Simply Initiative, also includes rules from `react-magnetic-di`;
+Eslint Config used within The Simply Initiative
 
 ## Installation
 
@@ -8,10 +8,10 @@ Base NX Eslint Config used within The Simply Initiative, also includes rules fro
 
 _If you are in an NX workspace, you can normally skip this step_
 
-Install the required packages for [ESLint](https://eslint.io/), [Typescript](https://typescriptlang.org/) and [Nx](https://nx.dev/):
+Install the required packages for [ESLint](https://eslint.io/), [Typescript](https://typescriptlang.org/)
 
 ```sh
-yarn add -D eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin @nrwl/devkit
+yarn add -D eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
 **Step 2**
@@ -27,9 +27,9 @@ yarn add -D @tsi/eslint-plugin
 In your `eslint` config file merge the following config:
 
 ```js
-// .eslint.js
+// .eslint_old.js
 module.exports = {
-  extends: ['plugin:@tsi/nx'],
+  extends: ['plugin:@tsi/config'],
   plugins: ['@tsi'],
 
   // ... other config ...

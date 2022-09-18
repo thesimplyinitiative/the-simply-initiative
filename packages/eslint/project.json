@@ -3,12 +3,12 @@
   "sourceRoot": "packages/eslint/src",
   "projectType": "library",
   "targets": {
-    "prebuild": {
+    "build": {
       "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/eslint",
-        "main": "packages/eslint/src/index.ts",
+        "main": "packages/eslint/src/index.js",
         "tsConfig": "packages/eslint/tsconfig.lib.json",
         "assets": [
           "packages/eslint/*.md",
@@ -24,15 +24,7 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["packages/eslint/**/*.ts"]
-      }
-    },
-    "build": {
-      "executor": "nx:run-commands",
-      "outputs": [],
-      "dependsOn": ["prebuild"],
-      "options": {
-        "command": "yarn node ./tools/remove-self-dependencies.js"
+        "lintFilePatterns": ["packages/eslint/**/*.js"]
       }
     }
   },

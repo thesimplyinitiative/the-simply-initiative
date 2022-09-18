@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["@tsi/eslint-plugin", ["workspace:packages/eslint"]],\
+      ["@tsi/eslint-plugin", ["virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#workspace:packages/eslint", "workspace:packages/eslint"]],\
       ["@tsi/root", ["workspace:."]]\
     ],\
     "fallbackPool": [\
@@ -57,7 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nrwl/workspace", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:14.5.10"],\
             ["@ryansonshine/commitizen", "npm:4.2.8"],\
             ["@testing-library/react", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:13.3.0"],\
-            ["@tsi/eslint-plugin", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A."],\
+            ["@tsi/eslint-plugin", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#workspace:packages/eslint"],\
             ["@types/jest", "npm:27.4.1"],\
             ["@types/node", "npm:18.7.13"],\
             ["@types/react", "npm:18.0.17"],\
@@ -3781,6 +3781,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
+        ["virtual:78b51da506bc297d7820c9715f2bff5e7b953bbbb95a051a25d645607ef03e3eeef801553d7730115d6a5c0bebb3cfdd721844fcf39456ab71fc3260bb8eba0e#npm:14.5.10", {\
+          "packageLocation": "./.yarn/__virtual__/@nrwl-eslint-plugin-nx-virtual-8ad90bb0f2/0/cache/@nrwl-eslint-plugin-nx-npm-14.5.10-aa2a6a106a-84189f3167.zip/node_modules/@nrwl/eslint-plugin-nx/",\
+          "packageDependencies": [\
+            ["@nrwl/eslint-plugin-nx", "virtual:78b51da506bc297d7820c9715f2bff5e7b953bbbb95a051a25d645607ef03e3eeef801553d7730115d6a5c0bebb3cfdd721844fcf39456ab71fc3260bb8eba0e#npm:14.5.10"],\
+            ["@nrwl/devkit", "virtual:835c314aa3da51521dd4da4c1e73f30a2cc5ed40fb8e8ca1538a72286b18dadddeaed57856b1583abd0a2cbb46d3409f7029e5e973a79c62e15c74cae68f098b#npm:14.5.10"],\
+            ["@nrwl/workspace", "virtual:297e5f7b7e650d08b64d03820c3c8f82bb2a2da2ee0c891fa334b10ed58766f4e962862a6d29141108ee448963fceb864bb41e96901b02992859a1e90581a1b2#npm:14.5.10"],\
+            ["@types/eslint-config-prettier", null],\
+            ["@types/typescript-eslint__parser", null],\
+            ["@typescript-eslint/parser", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:5.36.0"],\
+            ["@typescript-eslint/utils", "virtual:c10522e07df2a5f575ce30f83a5d6f5cdab79aab04d333ed7b93f97a9c3a4ac91ef294871616604f2afc09ea1be37106f5dd9556caf0d7eaa872fa0f83f47d16#npm:5.36.0"],\
+            ["chalk", "npm:4.1.0"],\
+            ["confusing-browser-globals", "npm:1.0.11"],\
+            ["eslint", "npm:8.23.0"],\
+            ["eslint-config-prettier", null],\
+            ["nx", "virtual:fa6d2ea107b81782a28aa7a73ca9f880f85ee59ac52daa23f6173bc091a2d0c2edac2cfef797b0b0a1ea68111a50482f795959a99ad4732f5ae62e67222462d0#npm:14.5.10"],\
+            ["semver", "npm:7.3.4"]\
+          ],\
+          "packagePeers": [\
+            "@types/eslint-config-prettier",\
+            "@types/typescript-eslint__parser",\
+            "@typescript-eslint/parser",\
+            "eslint-config-prettier"\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#npm:14.5.10", {\
           "packageLocation": "./.yarn/__virtual__/@nrwl-eslint-plugin-nx-virtual-19de45b7d8/0/cache/@nrwl-eslint-plugin-nx-npm-14.5.10-aa2a6a106a-84189f3167.zip/node_modules/@nrwl/eslint-plugin-nx/",\
           "packageDependencies": [\
@@ -4973,26 +4998,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@tsi/eslint-plugin", [\
-        ["portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint", {\
-          "packageLocation": "./dist/eslint/",\
+        ["virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#workspace:packages/eslint", {\
+          "packageLocation": "./.yarn/__virtual__/@tsi-eslint-plugin-virtual-78b51da506/1/packages/eslint/",\
           "packageDependencies": [\
-            ["@tsi/eslint-plugin", "portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A.", {\
-          "packageLocation": "./dist/eslint/",\
-          "packageDependencies": [\
-            ["@tsi/eslint-plugin", "portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A."]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A.", {\
-          "packageLocation": "./.yarn/__virtual__/@tsi-eslint-plugin-virtual-b1dfa3ec10/1/dist/eslint/",\
-          "packageDependencies": [\
-            ["@tsi/eslint-plugin", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A."],\
+            ["@tsi/eslint-plugin", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#workspace:packages/eslint"],\
             ["@nrwl/devkit", "virtual:835c314aa3da51521dd4da4c1e73f30a2cc5ed40fb8e8ca1538a72286b18dadddeaed57856b1583abd0a2cbb46d3409f7029e5e973a79c62e15c74cae68f098b#npm:14.5.10"],\
-            ["@types/eslint", null],\
+            ["@nrwl/eslint-plugin-nx", "virtual:78b51da506bc297d7820c9715f2bff5e7b953bbbb95a051a25d645607ef03e3eeef801553d7730115d6a5c0bebb3cfdd721844fcf39456ab71fc3260bb8eba0e#npm:14.5.10"],\
+            ["@types/eslint", "npm:8.4.6"],\
+            ["@types/eslint-plugin-react-hooks", null],\
+            ["@types/eslint-plugin-repo-structure", null],\
+            ["@types/node", "npm:18.7.13"],\
             ["@types/nrwl__devkit", null],\
             ["@types/prop-types", null],\
             ["@types/react", "npm:18.0.17"],\
@@ -5002,13 +5017,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:5.36.0"],\
             ["@typescript-eslint/parser", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:5.36.0"],\
             ["eslint", "npm:8.15.0"],\
+            ["eslint-plugin-react-hooks", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:4.6.0"],\
+            ["eslint-plugin-repo-structure", null],\
+            ["find-yarn-workspace-root", "npm:2.0.0"],\
             ["prop-types", null],\
             ["react", "npm:18.2.0"],\
-            ["react-magnetic-di", null]\
+            ["react-magnetic-di", "virtual:78b51da506bc297d7820c9715f2bff5e7b953bbbb95a051a25d645607ef03e3eeef801553d7730115d6a5c0bebb3cfdd721844fcf39456ab71fc3260bb8eba0e#npm:2.2.8"],\
+            ["tslib", "npm:2.4.0"]\
           ],\
           "packagePeers": [\
             "@nrwl/devkit",\
-            "@types/eslint",\
+            "@types/eslint-plugin-react-hooks",\
+            "@types/eslint-plugin-repo-structure",\
             "@types/nrwl__devkit",\
             "@types/prop-types",\
             "@types/react-magnetic-di",\
@@ -5017,46 +5037,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/typescript-eslint__parser",\
             "@typescript-eslint/eslint-plugin",\
             "@typescript-eslint/parser",\
+            "eslint-plugin-react-hooks",\
+            "eslint-plugin-repo-structure",\
             "eslint",\
             "prop-types",\
-            "react-magnetic-di",\
-            "react"\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint", {\
-          "packageLocation": "./.yarn/__virtual__/@tsi-eslint-plugin-virtual-e5cf0ffc4c/1/dist/eslint/",\
-          "packageDependencies": [\
-            ["@tsi/eslint-plugin", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint"],\
-            ["@nrwl/devkit", "virtual:378877b695b27757de6b906e6b963f53e2a6ac3110d1f96b3c79e4cbae9ada1916cd5f0a3cfbb6193f3751c4b46850142eb9cb306964312cfad7d915e14c1a7c#npm:14.5.10"],\
-            ["@types/eslint", "npm:8.4.6"],\
-            ["@types/nrwl__devkit", null],\
-            ["@types/prop-types", null],\
-            ["@types/react", null],\
-            ["@types/react-magnetic-di", null],\
-            ["@types/typescript-eslint__eslint-plugin", null],\
-            ["@types/typescript-eslint__parser", null],\
-            ["@typescript-eslint/eslint-plugin", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#npm:5.36.0"],\
-            ["@typescript-eslint/parser", null],\
-            ["eslint", "npm:8.15.0"],\
-            ["prop-types", null],\
-            ["react", null],\
-            ["react-magnetic-di", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#npm:2.2.8"]\
-          ],\
-          "packagePeers": [\
-            "@nrwl/devkit",\
-            "@types/eslint",\
-            "@types/nrwl__devkit",\
-            "@types/prop-types",\
-            "@types/react-magnetic-di",\
-            "@types/react",\
-            "@types/typescript-eslint__eslint-plugin",\
-            "@types/typescript-eslint__parser",\
-            "@typescript-eslint/eslint-plugin",\
-            "@typescript-eslint/parser",\
-            "eslint",\
-            "prop-types",\
-            "react-magnetic-di",\
             "react"\
           ],\
           "linkType": "SOFT"\
@@ -5064,13 +5048,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:packages/eslint", {\
           "packageLocation": "./packages/eslint/",\
           "packageDependencies": [\
+            ["@tsi/eslint-plugin", "workspace:packages/eslint"],\
             ["@nrwl/devkit", "virtual:378877b695b27757de6b906e6b963f53e2a6ac3110d1f96b3c79e4cbae9ada1916cd5f0a3cfbb6193f3751c4b46850142eb9cb306964312cfad7d915e14c1a7c#npm:14.5.10"],\
             ["@nrwl/eslint-plugin-nx", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#npm:14.5.10"],\
-            ["@tsi/eslint-plugin", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint"],\
             ["@types/eslint", "npm:8.4.6"],\
             ["@types/node", "npm:18.7.13"],\
             ["@typescript-eslint/eslint-plugin", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#npm:5.36.0"],\
             ["eslint", "npm:8.15.0"],\
+            ["find-yarn-workspace-root", "npm:2.0.0"],\
             ["react-magnetic-di", "virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#npm:2.2.8"],\
             ["tslib", "npm:2.4.0"]\
           ],\
@@ -5101,7 +5086,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nrwl/workspace", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:14.5.10"],\
             ["@ryansonshine/commitizen", "npm:4.2.8"],\
             ["@testing-library/react", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#npm:13.3.0"],\
-            ["@tsi/eslint-plugin", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A."],\
+            ["@tsi/eslint-plugin", "virtual:352a110a609445b20d9f2bd1c6292f7979ec523880d64d93d457b468b6dba2451645625c4adf9ec930da4b729359e17a4105e9eb3d29750e9dd97c1eddad2b38#workspace:packages/eslint"],\
             ["@types/jest", "npm:27.4.1"],\
             ["@types/node", "npm:18.7.13"],\
             ["@types/react", "npm:18.0.17"],\
@@ -10416,6 +10401,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["find-up", "npm:5.0.0"],\
             ["locate-path", "npm:6.0.0"],\
             ["path-exists", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["find-yarn-workspace-root", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/find-yarn-workspace-root-npm-2.0.0-e58a501607-fa5ca8f9d0.zip/node_modules/find-yarn-workspace-root/",\
+          "packageDependencies": [\
+            ["find-yarn-workspace-root", "npm:2.0.0"],\
+            ["micromatch", "npm:4.0.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16011,6 +16006,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-magnetic-di", "npm:2.2.8"]\
           ],\
           "linkType": "SOFT"\
+        }],\
+        ["virtual:78b51da506bc297d7820c9715f2bff5e7b953bbbb95a051a25d645607ef03e3eeef801553d7730115d6a5c0bebb3cfdd721844fcf39456ab71fc3260bb8eba0e#npm:2.2.8", {\
+          "packageLocation": "./.yarn/__virtual__/react-magnetic-di-virtual-ce0f6b061c/0/cache/react-magnetic-di-npm-2.2.8-f6e0032110-b8cdce79f1.zip/node_modules/react-magnetic-di/",\
+          "packageDependencies": [\
+            ["react-magnetic-di", "virtual:78b51da506bc297d7820c9715f2bff5e7b953bbbb95a051a25d645607ef03e3eeef801553d7730115d6a5c0bebb3cfdd721844fcf39456ab71fc3260bb8eba0e#npm:2.2.8"],\
+            ["@types/babel-plugin-macros", null],\
+            ["@types/eslint", "npm:8.4.6"],\
+            ["@types/prop-types", null],\
+            ["@types/react", "npm:18.0.17"],\
+            ["babel-plugin-macros", null],\
+            ["eslint", "npm:8.15.0"],\
+            ["prop-types", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/babel-plugin-macros",\
+            "@types/eslint",\
+            "@types/prop-types",\
+            "@types/react",\
+            "babel-plugin-macros",\
+            "eslint",\
+            "prop-types",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
         }],\
         ["virtual:ed858eb704d13c945d1496a774cd9b599cd1b6d607b2ed918307e32f275a874bf87cc88cc8ae6d8370b8fca7f4a0888f36f3a15b96dbdf94ac79bdc87a2a4973#npm:2.2.8", {\
           "packageLocation": "./.yarn/__virtual__/react-magnetic-di-virtual-50c6bc3ab2/0/cache/react-magnetic-di-npm-2.2.8-f6e0032110-b8cdce79f1.zip/node_modules/react-magnetic-di/",\

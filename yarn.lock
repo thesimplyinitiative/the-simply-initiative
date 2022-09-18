@@ -2964,70 +2964,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsi/eslint-plugin@portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint":
-  version: 0.0.0-use.local
-  resolution: "@tsi/eslint-plugin@portal:../../dist/eslint::locator=%40tsi%2Feslint-plugin%40workspace%3Apackages%2Feslint"
-  peerDependencies:
-    "@nrwl/devkit": ^14.5.10
-    "@typescript-eslint/eslint-plugin": ^5.29.0
-    "@typescript-eslint/parser": ^5.29.0
-    eslint: ~8.15.0
-    prop-types: ^15.0.0
-    react: ^18.2.0
-    react-magnetic-di: ^2.2.8
-  peerDependenciesMeta:
-    prop-types:
-      optional: true
-    react:
-      optional: true
-    react-magnetic-di:
-      optional: true
-  languageName: node
-  linkType: soft
-
-"@tsi/eslint-plugin@portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@tsi/eslint-plugin@portal:./dist/eslint::locator=%40tsi%2Froot%40workspace%3A."
-  peerDependencies:
-    "@nrwl/devkit": ^14.5.10
-    "@typescript-eslint/eslint-plugin": ^5.29.0
-    "@typescript-eslint/parser": ^5.29.0
-    eslint: ~8.15.0
-    prop-types: ^15.0.0
-    react: ^18.2.0
-    react-magnetic-di: ^2.2.8
-  peerDependenciesMeta:
-    prop-types:
-      optional: true
-    react:
-      optional: true
-    react-magnetic-di:
-      optional: true
-  languageName: node
-  linkType: soft
-
-"@tsi/eslint-plugin@workspace:packages/eslint":
+"@tsi/eslint-plugin@workspace:^, @tsi/eslint-plugin@workspace:packages/eslint":
   version: 0.0.0-use.local
   resolution: "@tsi/eslint-plugin@workspace:packages/eslint"
   dependencies:
     "@nrwl/devkit": ^14.5.10
     "@nrwl/eslint-plugin-nx": 14.5.10
-    "@tsi/eslint-plugin": "portal:../../dist/eslint"
     "@types/eslint": ^8
     "@types/node": ^18.7.13
     "@typescript-eslint/eslint-plugin": ^5.29.0
     eslint: ~8.15.0
+    find-yarn-workspace-root: ^2.0.0
     react-magnetic-di: ^2.2.8
     tslib: ^2.4.0
   peerDependencies:
     "@nrwl/devkit": ^14.5.10
     "@typescript-eslint/eslint-plugin": ^5.29.0
     "@typescript-eslint/parser": ^5.29.0
-    eslint: ~8.15.0
+    eslint: ">=8.15.0"
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-repo-structure: ^0.1.0
     prop-types: ^15.0.0
     react: ^18.2.0
     react-magnetic-di: ^2.2.8
   peerDependenciesMeta:
+    "@nrwl/devkit":
+      optional: true
+    eslint-plugin-react-hooks:
+      optional: true
+    eslint-plugin-repo-structure:
+      optional: true
     prop-types:
       optional: true
     react:
@@ -3060,7 +3026,7 @@ __metadata:
     "@nrwl/workspace": 14.5.10
     "@ryansonshine/commitizen": ^4.2.8
     "@testing-library/react": 13.3.0
-    "@tsi/eslint-plugin": "portal:./dist/eslint"
+    "@tsi/eslint-plugin": "workspace:^"
     "@types/jest": 27.4.1
     "@types/node": ^18.7.13
     "@types/react": 18.0.17
@@ -7158,6 +7124,15 @@ __metadata:
     locate-path: ^6.0.0
     path-exists: ^4.0.0
   checksum: 07955e357348f34660bde7920783204ff5a26ac2cafcaa28bace494027158a97b9f56faaf2d89a6106211a8174db650dd9f503f9c0d526b1202d5554a00b9095
+  languageName: node
+  linkType: hard
+
+"find-yarn-workspace-root@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "find-yarn-workspace-root@npm:2.0.0"
+  dependencies:
+    micromatch: ^4.0.2
+  checksum: fa5ca8f9d08fe7a54ce7c0a5931ff9b7e36f9ee7b9475fb13752bcea80ec6b5f180fa5102d60b376d5526ce924ea3fc6b19301262efa0a5d248dd710f3644242
   languageName: node
   linkType: hard
 
