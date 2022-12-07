@@ -6,13 +6,13 @@ fields: {}
 links:
   - name: ''
     type: PROJECT
-    url: 'https://thesimplyinitiative-new.atlassian.net/browse/TSLIB'
-  - name: ''
-    type: REPOSITORY
-    url: 'https://gitlab.com/the-simply-initiative/the-simply-initiative'
+    url: 'https://thesimplyinitiative.atlassian.net/browse/TSLIB'
   - name: ''
     type: DOCUMENT
     url: 'https://docs.thesimplyinitiative.com.au'
+  - name: ''
+    type: REPOSITORY
+    url: 'https://github.com/thesimplyinitiative/the-simply-initiative'
 relationships: {}
 
 # Learn more about formatting compass.yml:

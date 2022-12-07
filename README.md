@@ -1,4 +1,4 @@
-<a href="https://gitlab.com/tsi-libs/the-simply-initiative">
+<a href="https://github.com/thesimplyinitiative/the-simply-initiative">
   <img src="images/logo.png" alt="Logo">
 </a>
 

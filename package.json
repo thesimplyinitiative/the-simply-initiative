@@ -25,6 +25,7 @@
     "gen:generator": "nx g @nrwl/nx-plugin:generator ",
     "gen:executor": "nx g @nrwl/nx-plugin:executor "
   },
+  "repository": "https://github.com/thesimplyinitiative/the-simply-initiative",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
